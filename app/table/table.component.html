@@ -1,0 +1,78 @@
+<div id="table">
+
+        <div class="nav">
+            <div class="img-logo">
+                <img src="../../assets/ggg.svg" alt="">
+            </div>
+            
+            <div class="img-fluid">
+              <img src="../../assets/Group 32.svg" alt="">
+        </div>
+        </div>
+            <div class="head">
+                <h2>All Expense Tracking</h2>
+            </div> 
+
+            <div class="cards">
+                  <div class="grid cardview">
+            <div class="col-3  card "  >
+                <span>Total Expense</span>
+                <h1 style="color: #188AEC;">₹24,000</h1>
+
+            </div>
+            <div class="col-3  card ">
+                <span>Approved Expense</span>
+                <h1 style="color: #35A894;;">₹24,000</h1>
+
+            </div>
+            <div class="col-3  card " >
+                <span>Reject Expense</span>
+                <h1 style="color:#EB5757;">₹3,000</h1>
+
+                </div>
+            <div class="col-3 card" >
+                <span>Pending Expense</span>
+                <h1 style="color:#F2994A;">₹1,500</h1>
+        </div>  
+
+
+        </div>
+            </div>
+          
+
+        <div class="cls">
+
+            <h1>Expenses</h1>   
+            <div class="search">
+                <span class="p-input-icon-left">
+                    <i class="pi pi-search"></i>
+                    <input type="text" pInputText />
+                </span>
+            </div>     
+    <div class="table">
+        <p-table [value]="data" [tableStyle]="{'min-width': '50rem'}">
+            <ng-template pTemplate="header">
+                <tr>
+                    <th>Date <span> <i class="pi pi-chevron-down" style="color:#6E6D7A;padding-left: 5px;"></i></span></th>
+                    <th>Employee Name<span> <i class="pi pi-chevron-down"style="color:#6E6D7A;padding-left: 5px;"></i></span></th>
+                   <th>Types of Expense<span> <i class="pi pi-chevron-down"style="color:#6E6D7A;padding-left: 5px;"></i></span></th>
+                    <th>Expense Amount<span> <i class="pi pi-chevron-down"style="color:#6E6D7A;padding-left: 5px;"></i></span></th>
+                    <th>Stage Status<span> <i class="pi pi-chevron-down"style="color:#6E6D7A;padding-left: 5px;"></i></span></th>
+                </tr>
+            </ng-template>
+            <ng-template pTemplate="body" let-data >
+                <tr>
+                    <td>{{data.Date}}</td>
+                    <td>{{data.EmpNAme}}</td>
+                    <td>{{data.Expense}}</td>
+                    <td class="text-center">{{data.Amount}}</td>
+                    <td>{{data.Status}}</td>
+                </tr>
+            </ng-template>
+        </p-table>
+
+    </div>
+
+    </div>
+    </div>
+   

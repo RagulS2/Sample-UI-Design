@@ -1,0 +1,27 @@
+@font-face {
+    font-family: 'Montserrat';
+    src: url('./assets/Montserrat/static/Montserrat-SemiBold.ttf');
+    font-weight: 600;
+}
+
+@font-face {
+    font-family: 'Montserrat';
+    src: url('./assets/Montserrat/static/Montserrat-Bold.ttf');
+    font-weight: 700;
+}
+
+@font-face {
+    font-family: 'Montserrat';
+    src: url('./assets/Montserrat/static/Montserrat-Medium.ttf');
+    font-weight: 500;
+}
+
+@font-face{
+    font-family:'poppins';
+    src:url('../src/assets/Poppins/Poppins-Medium.ttf');
+    font-weight:500;
+}
+
+
+$SemiBold:'Montserrat';
+$Bold:'poppins';

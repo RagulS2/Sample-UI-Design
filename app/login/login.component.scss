@@ -1,0 +1,84 @@
+@import 'src/fonts.scss';
+
+#login {
+    overflow: hidden;
+    .fullpage {
+          
+       .left{
+        padding: 0 !important;
+          img{
+            height: 100vh;
+          }  
+       } 
+        .right {
+            padding: 0 !important;
+            
+
+            img {
+                margin-top: 146.31px;
+                padding-left: 130px;
+            }
+
+            h2 {
+                font-family: $SemiBold;
+                margin-top: 67.85px;
+                padding-left: 130px;
+                font-style: normal;
+                font-weight: 600;
+                font-size: 20px;
+                line-height: 24px;
+                color: #282D46;
+
+            }
+
+            .fieldset {
+                margin-top: 25px;
+                padding-left: 132px;
+
+                label {
+                    margin-top: 21px;
+                    display: block;
+                    font-family: $Bold;
+                    font-size: 14px;
+                    line-height: 16px;
+                    color: #787878;
+                }
+
+                input {
+                    margin-top: 4px;
+                    width: 316px;
+                }
+
+                .forgotlink {
+                    margin-top: 11px;
+
+                    a {
+                        font-family: $Bold;
+                        font-size: 13px;
+                        line-height: 22px;
+                        color: #2F80ED;
+                        text-decoration: none;
+
+                    }
+                }
+                button {
+                    margin-top: 20px;
+                    width: 316px;
+                    height: 40px;
+                    background-color: #35A894;
+                    display: flex;
+                    justify-content: center;
+                    border-radius: 2px;
+                    border:none;
+
+                }
+               
+
+            }
+
+
+        }
+
+    }
+
+}
